@@ -1,0 +1,145 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px !important;
+}
+
+nav {
+    height: 50px;
+    background-color: white;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+}
+
+nav span {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+main {
+    background-color: #e6f0ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;    
+}
+
+main img {
+    max-height: 100px;
+}
+
+main p {
+    max-width: 300px;
+}
+
+section {
+    padding-top: 1rem;
+    display: flex;    
+}
+
+footer {
+    background-color: #1c0e33;
+}
+
+footer img {
+    max-width: 100px;
+    margin: 20px;
+}
+
+#corona-section {
+    background-color: #1c0e33;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#corona-section h5 {
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#corona-section span {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+#cintas-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+#master {
+    justify-content: space-between;
+}
+
+#master-img {
+    height: 500px;
+    margin-top: 50px;
+}
+
+.big-emoji {
+    font-size: 100px;
+}
+
+.cinta {
+    width: 300px;
+    border: 1px solid  rgb(179, 179, 179);
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+}
+
+.roja {
+    background-color: rgb(102, 0, 0);
+    color: white;
+}
+
+.negra {
+    background-color: black;
+    color: white;
+}
+
+.cinta:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.master-content {
+    margin-top: 100px;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.master-content img {
+    max-height: 200px;
+    object-fit: scale-down;
+}
+
+.master-content p {
+    margin-top: 20px;
+}
