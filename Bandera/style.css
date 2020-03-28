@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-} 
+}
 
 section {
     display: flex;
@@ -20,29 +20,29 @@ section {
 }
 
 .white {
-    display: flex;    
+    display: flex;
     background-color: white;
     width: 30%;
     height: 90%;
 }
 
 .white-left {
-    display: flex;    
+    display: flex;
     background-color: white;
     width: 60%;
     height: 90%;
 }
 
-.red {         
+.red {
     height: auto;
     width: 100%;
     background-color: red;
     margin-right: 20%;
 }
 
-.red-left {  
+.red-left {
     height: auto;
-    width: 100%;  
+    width: 100%;
     background-color: red;
     margin-left: 10%;
 }
