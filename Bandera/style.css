@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    background-color: #002868;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+} 
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.white {
+    display: flex;    
+    background-color: white;
+    width: 30%;
+    height: 90%;
+}
+
+.white-left {
+    display: flex;    
+    background-color: white;
+    width: 60%;
+    height: 90%;
+}
+
+.red {         
+    height: auto;
+    width: 100%;
+    background-color: red;
+    margin-right: 20%;
+}
+
+.red-left {  
+    height: auto;
+    width: 100%;  
+    background-color: red;
+    margin-left: 10%;
+}
+
+.margin-top-tiny {
+    margin-top: 20%;
+}
+
+.margin-top {
+    margin-top: 10%;
+}
+
+.margin-bottom {
+    margin-bottom: 10%;
+}
+
+.margin-bottom-tiny {
+    margin-bottom: 20%;
+}

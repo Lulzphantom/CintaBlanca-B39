@@ -20,7 +20,7 @@ nav {
     padding-left: 50px;
     position: sticky;
     top: 0;
-    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
 }
 
 nav span {
@@ -34,7 +34,7 @@ main {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;    
+    padding: 20px;
 }
 
 main img {
@@ -47,7 +47,7 @@ main p {
 
 section {
     padding-top: 1rem;
-    display: flex;    
+    display: flex;
 }
 
 footer {
@@ -103,14 +103,14 @@ footer img {
 
 .cinta {
     width: 300px;
-    border: 1px solid  rgb(179, 179, 179);
+    border: 1px solid rgb(179, 179, 179);
     border-radius: 20px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
 .roja {
@@ -124,7 +124,7 @@ footer img {
 }
 
 .cinta:hover {
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 .master-content {
